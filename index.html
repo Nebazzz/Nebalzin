@@ -12,89 +12,98 @@
   </head>
   <body>
     <img src="image/logo.svg" alt="логотип с надписью GO">
-    <section>
-    <h2>Меню</h2>
-    </section>
-    <ul>
-      <li>
-        <a href="#rooms">Залы</a>
-      </li>
-      <li>
-        <a href="#Us">О нас</a>
-      </li>
-      <li>
-        <a href="#">Бронь</a>
-      </li>
-      <li>
-        <a href="#">Отзывы</a>
-      </li>
-      <li>
-        <a href="#contacts">Контакты</a>
-      </li>
-    </ul>
+    <header>
+      <section>
+        <h2>Меню</h2>
+      </section>
+        <nav>
+          <ul>
+            <li>
+              <a href="#rooms">Залы</a>
+            </li>
+            <li>
+              <a href="#Us">О нас</a>
+            </li>
+            <li>
+              <a href="#">Бронь</a>
+            </li>
+            <li>
+              <a href="#">Отзывы</a>
+            </li>
+            <li>
+              <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
 
-    <h2>У нас есть все для классного отдыха с друзьями!</h2>
-    <ul>
-      <li>
-      <figure>
-        <img src="image/vr.jpg" alt="зал с Vr очками" height="228">
-        <figcaption>VR очки</figcaption>
-      </figure>
-      </li>
-      <li>
-      <figure>
-        <img src="image/audio.jpg" alt="зал с Аудио-системой 5.1" height="228">
-        <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
-      </figure>
-      </li>
-      <li>
-      <figure>
-        <img src="image/micro.jpg" alt="зал с караоке" height="228">
-        <figcaption>Караоке (4 микрофона)</figcaption>
-      </figure>
-      </li>
-      <li>
-      <figure>
-        <img src="image/game.jpg" alt="зал с настольными играми" height="228">
-        <figcaption>Настольные игры</figcaption>
-      </figure>
-      </li>
-      <li>
-      <figure>
-        <img src="image/netflix.jpg" alt="зал с разными кино сервисами" height="228">
-        <figcaption>Кино сервисы Netflix, MegoGO, Кинопоиск, Okko</figcaption>
-      </figure>
-      </li>
-      <li>
-      <figure>
-        <img src="image/sony.jpg" alt="зал с консолью Playstation 5" height="228">
-        <figcaption>Playstation 5</figcaption>
-      </figure>
-      </li>
-    </ul>
+    <main>
+      <section>
+        <h2>У нас есть все для классного отдыха с друзьями!</h2>
+        <ul>
+          <li>
+          <figure>
+            <img src="image/vr.jpg" alt="зал с Vr очками" height="228">
+            <figcaption>VR очки</figcaption>
+          </figure>
+          </li>
+          <li>
+          <figure>
+            <img src="image/audio.jpg" alt="зал с Аудио-системой 5.1" height="228">
+            <figcaption>Аудио-система 5.1 с отличным звуком</figcaption>
+          </figure>
+          </li>
+          <li>
+          <figure>
+            <img src="image/micro.jpg" alt="зал с караоке" height="228">
+            <figcaption>Караоке (4 микрофона)</figcaption>
+          </figure>
+          </li>
+          <li>
+          <figure>
+            <img src="image/game.jpg" alt="зал с настольными играми" height="228">
+            <figcaption>Настольные игры</figcaption>
+          </figure>
+          </li>
+          <li>
+          <figure>
+            <img src="image/netflix.jpg" alt="зал с разными кино сервисами" height="228">
+            <figcaption>Кино сервисы Netflix, MegoGO, Кинопоиск, Okko</figcaption>
+          </figure>
+          </li>
+          <li>
+          <figure>
+            <img src="image/sony.jpg" alt="зал с консолью Playstation 5" height="228">
+            <figcaption>Playstation 5</figcaption>
+          </figure>
+          </li>
+        </ul>
+      </section>
 
-    <h2 id="rooms">Наши залы</h2>
-    <ol>
-      <li>
-        <a href="vibes.html">80's vibes</a>
-      </li>
-      <li>
-        <a href="starwars.html">Star wars</a>
-      </li>
-      <li>
-        <a href="wildwest.html">Wild west</a>
-      </li>
-      <li>
-        <a href="neon.html">Neon style</a>
-      </li>
-    </ol>
+      <section>
+        <h2 id="rooms">Наши залы</h2>
+        <ol>
+          <li>
+            <a href="vibes.html">80's vibes</a>
+          </li>
+          <li>
+            <a href="starwars.html">Star wars</a>
+          </li>
+          <li>
+            <a href="wildwest.html">Wild west</a>
+          </li>
+          <li>
+            <a href="neon.html">Neon style</a>
+          </li>
+        </ol>
+      </section>
 
-    <form id="reserv" 
-    action="https://jsonplaceholder.typicode.com/posts" 
-    method="post">
+      <section>
+        <form id="reserv" 
+        action="https://jsonplaceholder.typicode.com/posts" 
+        method="post">
 
-      <fieldset>
-
+        <fieldset>
         <h2>Забронировать</h2>
 
         <fieldset>
@@ -105,11 +114,9 @@
         </fieldset>
 
         <fieldset>
-
           <legend>Собери набор развлечений</legend>
 
             <fieldset>
-
               <legend>Приставка:</legend>
 
               <label for="playstation">
@@ -130,7 +137,6 @@
             </fieldset>
 
             <fieldset>
-
               <legend>Настольные игры:</legend>
 
               <label for="jenga">
@@ -151,7 +157,6 @@
             </fieldset>
 
             <fieldset>
-
               <legend>Дополнительно:</legend>
 
               <label for="karaoke">
@@ -165,7 +170,6 @@
         </fieldset>
 
         <fieldset>
-
           <legend>Выберите дату и время</legend>
 
           <label>Дата
@@ -204,34 +208,37 @@
           <br>
 
         </fieldset>
-        <button type="submit">Забронировать</button>
-        <input type="checkbox" name="agree2" required>Согласен на обработку данных
 
-      </fieldset>
-    </form>
+          <button type="submit">Забронировать</button>
 
-    <h2 id="Us">О нас</h2>
-    <p>
-      Для наших гостей мы создали
-      <i>концептуально новое игровое пространство виртуальной реальности</i> в
-      центральной части города.
-    </p>
-    <p>
-      Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу
-      и радовать Вас топовыми игровыми разработками со всего мира.
-    </p>
+          <input type="checkbox" name="agree2" required>Согласен на обработку данных
+        </fieldset>
+        </form>
+      </section>
 
-    <blockquote>
-      <p><b>GAME OVER</b> - это место незабываемых впечатлений</p>
-      <cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite>
-    </blockquote>
+      <section>
+        <h2 id="Us">О нас</h2>
+        <p>Для наших гостей мы создали
+        <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.
+        </p>
+        <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.
+        </p>
 
-    <h2 id="contacts">Контакты</h2>
-    <address>
-      <p>г. Москва ул. Аквамарина, 16</p>
-      <p><a href="tel:89509302893">8(950)930-28-93</a></p>
-      <p><a href="mailto:gameover@gmail.com">GameOver@gmail.com</a></p>
-    </address>
+        <blockquote>
+        <p><b>GAME OVER</b> - это место незабываемых впечатлений</p>
+        <cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite>
+        </blockquote>
+      </section>
+    </main>
+
+    <footer>
+      <h2 id="contacts">Контакты</h2>
+      <address>
+        <p>г. Москва ул. Аквамарина, 16</p>
+        <p><a href="tel:89509302893">8(950)930-28-93</a></p>
+        <p><a href="mailto:gameover@gmail.com">GameOver@gmail.com</a></p>
+      </address>
+
       <ul>
         <li>
           <a href="http://vk.com" target="_blank">Vkontakte</a>
@@ -240,5 +247,7 @@
           <a href="https://web.telegram.org" target="_blank">Telegram</a>
         </li>
       </ul>
+    </footer>
+
   </body>
 </html>
