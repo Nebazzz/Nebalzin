@@ -7,31 +7,22 @@
   margin-bottom: 20px;
 }
 
-.list:nth-child(2n) {
+.list:nth-child(even) {
   background-color: #440F51;
   color: white;
-  font-weight: 700;
-  font-size: 24px;
-  padding: 30px 70px;
-  margin-bottom: 20px;
 }
 
 .list:after {
   content: "";
-  margin-left: 95%;
   display: inline-block;
   width: 24px;
   height: 24px;
   background-image: url("/icons/open-purple.svg");
   background-size: contain;
+  margin-left: 95%;
 }
 
-.list:nth-child(2n):after {
+.list:nth-child(even):after {
   content: "";
-  margin-left: 95%;
-  display: inline-block;
-  width: 24px;
-  height: 24px;
   background-image: url("/icons/open.svg");
-  background-size: contain;
 }
