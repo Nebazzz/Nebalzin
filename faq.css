@@ -1,6 +1,9 @@
 .item {
   background-color: #fff;
   color: #1C1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
@@ -27,10 +30,4 @@
 
 .item:nth-child(even):after {
   background-image: url("/icons/open.svg");
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
