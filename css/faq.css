@@ -1,13 +1,14 @@
 .item {
   background-color: #fff;
   color: #1C1A1A;
-  display: flex;
-  /* align-items: center;
+  /* display: flex;
+  align-items: center;
   justify-content: center; */
   font-weight: 700;
   font-size: 24px;
   padding: 30px 70px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .item:nth-child(even) {
@@ -19,10 +20,15 @@
 .item:after {
   content: "";
   display: inline-block;
-  width: 28px;
-  height: 28px;
+  position: absolute;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
   background-size: contain;
-  margin-left: auto;
+  background-repeat: no-repeat;
+  /* margin-left: auto; */
 }
 
 .item:nth-child(odd):after {
