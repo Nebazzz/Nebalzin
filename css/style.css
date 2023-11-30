@@ -38,9 +38,9 @@ li {
   list-style: none;
 }
 
-.blockquote {
+/* .blockquote {
   text-transform: uppercase;
-}
+} */
 
 .wrapper {
   width: 1180px;
