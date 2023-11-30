@@ -1,0 +1,43 @@
+.rooms-list{
+  height: 3080px;
+}
+
+.item-room {
+  position: relative;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  width: 1180px;
+  height: 710px;
+  text-align: center;
+}
+
+.room-link {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    top: 275px;
+    right: 477px;
+    left: 477px;
+    color: #FFFFFF;
+}
+
+.item-vibe {
+  background-image: url("../image/vibe.jpg");
+}
+
+.item-star {
+background-image: url("../image/starwars.jpg");
+}
+
+.item-west {
+background-image: url("../image/wildwest.jpg");
+}
+
+.item-neon {
+background-image: url("../image/neon.jpg");
+}

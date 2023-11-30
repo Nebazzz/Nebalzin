@@ -2,13 +2,34 @@
   box-sizing: border-box;
 }
 
-li {
-  list-style: none;
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-.body {
+body {
   background-color: #1B1A1B;
-color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFF;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .blockquote {
@@ -16,7 +37,8 @@ color: #FFFFFF;
 }
 
 .wrapper {
-  width: 1200px;
-  padding: 30px;
-  margin: 0 auto;
+  width: 1180px;
+  margin: 0 130px 0 130px;
 }
+
+
