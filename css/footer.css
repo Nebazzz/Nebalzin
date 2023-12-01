@@ -33,3 +33,33 @@
 .decoration-link {
   color: #fff;
 }
+
+.social-link {
+  /* display: inline-block; */
+  margin-top: 39px;
+  margin-bottom: 50px;
+}
+
+.social-link-item {
+  display: inline-block;
+}
+
+.social-link-url {
+  color: #fff;
+  padding-right: 26px;
+  width: 50px;
+  height: 50px;
+}
+
+.social-link-url:hover {
+  color: #CD06FF;
+}
+
+.social-link-url:focus {
+  outline-color: #CD06FF;
+}
+
+.social-link-url:active {
+  color: #840AA3;
+}
+

@@ -1,0 +1,22 @@
+.first-section {
+  height: 823px;
+}
+
+
+.first-title {
+  background-color: transparent;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0 0 0 100px;
+}
+
+.vr-man {
+  background-image: url("../image/vr.png");
+  background-repeat: no-repeat;
+  background-position: right 0 bottom 100px;
+  height: 762px;
+
+
+}
