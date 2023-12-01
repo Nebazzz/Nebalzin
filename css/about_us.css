@@ -13,20 +13,31 @@
   object-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  right: 300px;
+  right: 280px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .review {
+  position: relative;
   color: #FFF;
   font-size: 44px;
   font-weight: 400;
   line-height: 50px; /* 113.636% */
   text-transform: uppercase;
+  margin-top: 78px;
+  margin-bottom: 40px;
   white-space: break-spaces;
 }
 
+.blockquote {
+  position: absolute;
+  width: 250px;
+  height: 84px;
+  text-align: left;
+  margin-left: 945px;
+
+}
 .quotes {
   color: #6C0287;
   font-size: 44px;
@@ -35,10 +46,4 @@
   text-transform: uppercase;
 }
 
-.blockquote {
-  width: 250px;
-  height: 84px;
-  float: right;
-  margin: 0;
-}
 

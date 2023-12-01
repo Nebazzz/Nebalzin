@@ -25,6 +25,7 @@ h2 {
   font-weight: 700;
   line-height: 50px; /* 125% */
   text-transform: uppercase;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
