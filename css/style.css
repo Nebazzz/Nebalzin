@@ -38,13 +38,17 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   margin-bottom: 100px;
 }
 
 .wrapper {
   width: 1180px;
-  margin: 0 130px 0 130px;
+  margin: 0 auto;
 }
 
 

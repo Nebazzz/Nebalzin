@@ -3,16 +3,13 @@
   margin: 0;
 }
 
-.about-us:before {
-  content: "";
-  background-image: url("../image/quote.jpg");
+.author {
   position: absolute;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  object-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: top;
   right: 280px;
   top: 50%;
   transform: translateY(-50%);

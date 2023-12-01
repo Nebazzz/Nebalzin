@@ -1,4 +1,4 @@
-.item {
+.item-q {
   background-color: #fff;
   color: #1C1A1A;
   /* display: flex;
@@ -11,13 +11,13 @@
   position: relative;
 }
 
-.item:nth-child(even) {
+.item-q:nth-child(even) {
   background-color: #440F51;
   color: white;
 
 }
 
-.item:after {
+.item-q:after {
   content: "";
   display: inline-block;
   position: absolute;
@@ -31,10 +31,10 @@
   /* margin-left: auto; */
 }
 
-.item:nth-child(odd):after {
+.item-q:nth-child(odd):after {
   background-image: url("/icons/open-purple.svg");
 }
 
-.item:nth-child(even):after {
+.item-q:nth-child(even):after {
   background-image: url("/icons/open.svg");
 }
