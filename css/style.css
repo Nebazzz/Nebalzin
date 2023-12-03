@@ -52,13 +52,16 @@ a {
   text-decoration: none;
 }
 
-section {
-  margin-bottom: 100px;
-}
-
 .wrapper {
-  width: 1180px;
+  width: 1240px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
+section {
+  padding: 50px 0 50px 0;
+}
 
+section:first-child {
+  padding: 146px 0 50px 0;
+}
