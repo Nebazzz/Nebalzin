@@ -15,17 +15,17 @@
 }
 
 .room-link {
-    position: absolute;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 80px;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    top: 275px;
-    right: 477px;
-    left: 477px;
-    color: #FFFFFF;
+  position: absolute;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  top: 275px;
+  right: 477px;
+  left: 477px;
+  color: #FFFFFF;
 }
 
 .item-vibe {
@@ -33,15 +33,15 @@
 }
 
 .item-star {
-background-image: url("../image/starwars.jpg");
+  background-image: url("../image/starwars.jpg");
 }
 
 .item-west {
-background-image: url("../image/wildwest.jpg");
+  background-image: url("../image/wildwest.jpg");
 }
 
 .item-neon {
-background-image: url("../image/neon.jpg");
+  background-image: url("../image/neon.jpg");
 }
 
 .title-reservation {

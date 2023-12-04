@@ -65,3 +65,7 @@ section {
 section:first-child {
   padding: 146px 0 50px 0;
 }
+
+section:last-child {
+  padding: 50px 0 100px 0;
+}
