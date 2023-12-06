@@ -1,8 +1,11 @@
 @import url("css/normalize.css");
 @import url("css/style.css");
-@import url("css/faq.css");
+@import url("css/header.css");
+@import url("css/section-one.css");
+@import url("css/options.css");
 @import url("css/rooms.css");
+@import url("css/form.css");
 @import url("css/about_us.css");
-@import url("css/questions.css");
+@import url("css/review.css");
+@import url("css/faq.css");
 @import url("css/footer.css");
-@import url("css/first-title.css");

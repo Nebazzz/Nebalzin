@@ -2,26 +2,26 @@
   height: 646px;
 }
 
-.about-us {
+.section-about-us__blockquote__text {
   display: inline-block;
   vertical-align: top;
   max-width: 235px;
   margin: 0;
 }
 
-.text-quote {
+.section-about-us__quote {
   margin-bottom: 78px;
 }
 
-.text-quote p {
+.section-about-us__quote p {
   margin: 0 0 20px 0;
 }
 
-.text-quote p:nth-child(2) {
+.section-about-us__quote p:nth-child(2) {
   margin: 0;
 }
 
-.author {
+.section-about-us__blockquote__img {
   display: inline-block;
   width: 80px;
   height: 80px;
@@ -31,7 +31,7 @@
   margin-right: 28px;
 }
 
-.review {
+.section-about-us__review {
   color: #FFF;
   font-size: 44px;
   font-weight: 400;
@@ -41,7 +41,7 @@
   white-space: break-spaces;
 }
 
-.review:before {
+.section-about-us__review:before {
   content: "\201c";
   color: #6C0287;
   font-size: 44px;
@@ -51,7 +51,7 @@
   margin-right: 16px;
 }
 
-.review:after {
+.section-about-us__review:after {
   content: "\201d";
   color: #6C0287;
   font-size: 44px;
@@ -60,7 +60,7 @@
   text-transform: uppercase;
 }
 
-.blockquote {
+.section-about-us__blockquote {
   float: right;
   clear: both;
   margin: 0;

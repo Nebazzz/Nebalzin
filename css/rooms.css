@@ -1,5 +1,16 @@
+/* .section-rooms {
 
-.item-room {
+}
+
+.section-rooms__title {
+
+}
+
+.section-rooms__list {
+
+} */
+
+.section-rooms__item {
   position: relative;
   background-position: center;
   background-repeat:no-repeat;
@@ -10,11 +21,11 @@
   margin-bottom: 60px;
 }
 
-.item-room:last-child {
+.section-rooms__item:last-child {
   margin-bottom: 0px;
 }
 
-.room-link {
+.section-rooms__link {
   position: absolute;
   font-size: 70px;
   font-weight: 700;
@@ -28,19 +39,19 @@
   color: #FFFFFF;
 }
 
-.item-vibe {
+.section-rooms__item_vibe {
   background-image: url("../image/vibe.jpg");
 }
 
-.item-star {
+.section-rooms__item_star {
   background-image: url("../image/starwars.jpg");
 }
 
-.item-west {
+.section-rooms__item_west {
   background-image: url("../image/wildwest.jpg");
 }
 
-.item-neon {
+.section-rooms__item_neon {
   background-image: url("../image/neon.jpg");
 }
 
