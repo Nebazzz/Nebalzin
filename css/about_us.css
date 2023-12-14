@@ -1,20 +1,47 @@
 .section-about-us {
-  height: 646px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  height: 692px;
+  margin: 0 auto;
+  Overflow: hidden;
 }
 
-/* .section-about-us__text {
+.section-about-us__block {
+  display: inline-block;
+  vertical-align: top;
+}
 
+.section-about-us__block:not(:last-child) {
+  margin-right: 80px;
+}
+
+/* .section-about-us__rooms-img {
+  width: 600px;
+  height: 596px;
 } */
+
+.section-about-us__block1 {
+  width: 600px;
+  height: 596px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.section-about-us__block2 {
+  position: relative;
+  width: 490px;
+  height: 596px;
+}
 
 .section-about-us__blockquote__text {
   display: inline-block;
   vertical-align: top;
-  max-width: 235px;
-  margin: 0;
+  max-width: 270px;
+  height: 84px;
 }
 
 .section-about-us__quote {
-  margin-bottom: 78px;
+  margin-bottom: 59px;
 }
 
 .section-about-us__quote p {
@@ -25,17 +52,9 @@
   margin: 0;
 }
 
-.section-about-us__blockquote__img {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: top;
-  margin-right: 28px;
-}
-
 .section-about-us__review {
+  max-width: 469px;
+  height: 191px;
   color: #FFF;
   font-size: 44px;
   font-weight: 400;
@@ -52,7 +71,7 @@
   font-weight: 900;
   line-height: 50px; /* 113.636% */
   text-transform: uppercase;
-  margin-right: 16px;
+  margin-right: 9px;
 }
 
 .section-about-us__review:after {
@@ -62,10 +81,30 @@
   font-weight: 900;
   line-height: 50px; /* 113.636% */
   text-transform: uppercase;
+  margin-left: 9px;
 }
 
 .section-about-us__blockquote {
-  float: right;
+  display: inline-block;
+  position: absolute;
+  max-width: 500px;
+  height: 84px;
+  vertical-align: bottom;
+  margin: 0 auto;
+  bottom: 0;
+  
+  /* float: right;
   clear: both;
-  margin: 0;
+  margin: 0; */
+}
+
+.section-about-us__blockquote__img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 28px;
+  margin-left: 79px;
 }
