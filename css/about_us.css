@@ -1,9 +1,10 @@
 .section-about-us {
-  padding-top: 1px;
-  padding-bottom: 1px;
-  height: 692px;
   margin: 0 auto;
-  Overflow: hidden;
+}
+
+
+.section-about-us__title {
+  margin-bottom: 40px;
 }
 
 .section-about-us__block {
@@ -16,15 +17,12 @@
 }
 
 /* .section-about-us__rooms-img {
-  width: 600px;
-  height: 596px;
+
 } */
 
 .section-about-us__block1 {
   width: 600px;
   height: 596px;
-  padding-top: 1px;
-  padding-bottom: 1px;
 }
 
 .section-about-us__block2 {

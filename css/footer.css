@@ -1,8 +1,14 @@
+.contacts__title {
+  margin-bottom: 40px;
+}
+
+
 .address {
   margin-bottom: 39px;
 }
 
 .address__item {
+  width: 380px;
   font-style: normal;
   font-weight: 700;
   padding-left: 65px;
