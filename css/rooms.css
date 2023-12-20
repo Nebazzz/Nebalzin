@@ -2,27 +2,33 @@
 
 }
 
-.section-rooms__title {
-
-}
-
 .section-rooms__list {
-
+  
 } */
 
+.section-rooms__title {
+  margin-bottom: 40px;
+}
+
 .section-rooms__item {
+  display: inline-block;
   position: relative;
   background-position: center;
   background-repeat:no-repeat;
   background-size: contain;
-  width: 1180px;
-  height: 710px;
+  width: 577px;
+  height: 349px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.section-rooms__item:last-child {
-  margin-bottom: 0px;
+.section-rooms__item:nth-child(even) {
+  margin-right: 0;
+}
+
+.section-rooms__item:nth-child(n+3) {
+  margin-bottom: 0;
 }
 
 .section-rooms__link {
@@ -32,11 +38,11 @@
   line-height: 80px;
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
-  top: 275px;
-  right: 477px;
-  left: 477px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #FFFFFF;
+  white-space: nowrap;
 }
 
 .section-rooms__item_vibe {

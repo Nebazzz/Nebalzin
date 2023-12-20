@@ -1,33 +1,54 @@
-/* .section-review {
+.section-review {
 
 }
 
 .section-review__title {
-
+  margin-bottom: 40px;
 }
 
 .section-review__text {
-
+  position: absolute;
+  width: 680px;
+  height: 88px;
+  top: 52px;
+  right: 0;
 }
 
 .section-review__list {
+  display: inline-block;
+  position: relative;
+  height: 319px;
+  width: 980px;
+  margin: 0 100px 50px;
+}
 
+.section-review__list:last-child {
+  margin: 0 100px;
 }
 
 .section-review__item {
-
+  display: inline-block;
 }
 
 .section-review__figure {
-
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .section-review__figure-caption {
-
+  position: absolute;
+  width: 280px;
+  bottom: 0;
+  text-align: center;
 }
 
 .section-review__img {
-
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: 0;
 }
 
 .section-review__img-max {
@@ -40,4 +61,4 @@
 
 .section-review__img-oksana {
 
-} */
+}
